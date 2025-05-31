@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+csv-data-analyzer-venv/
+*-venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code and other editor settings
+.vscode/
+.idea/
+*.swp
+
+# Environment files
+.env
+*.env
+
+# Ignore data directories
+data/raw/*
+
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data files
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.h5
+*.db
+*.txt
+
+# Logs and outputs
+*.log
+*.out
+*.bak
+
+# Test cache
+.pytest_cache/
+coverage/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Notebook outputs (optional)
+**/*.ipynb
+
+# Security (tokens, keys if any)
+secrets.*
+
+# Database files
+*.sqlite
+*.sqlite3
