@@ -34,7 +34,7 @@ A comprehensive Python-based analytics pipeline for processing and analyzing foo
 - **Dashboard Visualizations** saved as high-resolution images
 
 ## Source
-[Dowload Football Resource](https://www.kaggle.com/datasets/secareanualin/football-events)
+[Dowload Dataset](https://www.kaggle.com/datasets/secareanualin/football-events)
 
 ## 🏗️ Project Structure
 
