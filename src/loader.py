@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+import src.utils as utils
 
 def load_data_csv(file_name: str) -> pd.DataFrame:
     """
@@ -22,7 +23,6 @@ def load_data_csv(file_name: str) -> pd.DataFrame:
     print(f"Loaded '{file_name}' successfully!")
     print(f"Total rows: {df.shape[0]}")
     print(f"Total columns: {df.shape[1]}")
-    print("Columns:")
-    print(df.columns.tolist())
+    print(f"Columns: {utils.split_and_join(df.columns.tolist())}\n",)
     
     return df

@@ -1,7 +1,5 @@
-
-
-
 import pandas as pd
+import src.utils as utils
 
 def filter_columns(df: pd.DataFrame, columns: list = None) -> pd.DataFrame:
     """
@@ -14,7 +12,8 @@ def filter_columns(df: pd.DataFrame, columns: list = None) -> pd.DataFrame:
     Returns:
         pd.DataFrame: Dataframe with only specified columns.
     """
-    print("Filtering columns: ", columns)
+    text:str = utils.split_and_join(columns, ", ")
+    print(f"Filtering columns({len(columns)}): {text}")
     cols_to_keep = [col for col in columns if col in df.columns]
     return df[cols_to_keep]
 
