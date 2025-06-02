@@ -58,7 +58,6 @@ A comprehensive Python-based analytics pipeline for processing and analyzing foo
 │   └── utils.py               # Helper functions
 ├── main.py                    # Main execution pipeline
 ├── requirements.txt           # Python dependencies
-├── dictionary.txt             # Event code mappings
 └── README.md                  # Project documentation
 ```
 
